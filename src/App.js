@@ -3,6 +3,7 @@ import questions from "./data";
 import data from "./data";
 import SingleQuestion from "./Question";
 function App() {
+  const [questions, setQuestions] = useState(data);
   return (
     <main>
       <div className="container">
